@@ -1,0 +1,486 @@
+{
+	"gridSelectedFilter": {
+		"startDate": "2022-07-01",
+		"endDate": "2022-07-15",
+		"selectedDropdownFiters":[
+			{
+				"id":"Asset Type",
+				"value":"Email"
+			},
+			{
+				"id":"Geography",
+				"value":"USA Central"
+			},
+			{
+				"id":"ORG",
+				"value":"SUV22"
+			}
+		]
+	},
+	"gridAddOn": {
+		"showFirstColumnAsCheckbox": true,
+		"showLastColumnAsAction": true
+	},
+	"gridHeader": [
+		{
+			"key": "column1",
+			"headerText": "INCIDENT",
+			"isSorting": true,
+			"type": "NUMERIC"
+		},
+		{
+			"key": "column2",
+			"headerText": "CATEGORY",
+			"isSorting": true,
+			"type": "TEXT"
+		},
+		{
+			"key": "column3",
+			"headerText": "TICKET DETAILS",
+			"isSorting": false,
+			"type": "TEXT"
+		},
+		{
+			"key": "column4",
+			"headerText": "DATE RAISED",
+			"isSorting": false,
+			"type": "DATE"
+		},
+		{
+			"key": "column5",
+			"headerText": "DUE DATE",
+			"isSorting": false,
+			"type": "DATE"
+		},
+		{
+			"key": "column6",
+			"headerText": "STATUS",
+			"isSorting": false,
+			"type": "TEXT"
+		},
+		{
+			"key": "column7",
+			"headerText": "LEVEL",
+			"isSorting": false,
+			"type": "LEVEL"
+		},
+		{
+			"key": "column8",
+			"headerText": "OWNER",
+			"isSorting": false,
+			"type": "TEXT"
+		}
+	],
+	"gridData": [
+		{
+			"column1": "a",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "High",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "b",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "c",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Medium",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7b7522fbb5dc86d6c",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f70154808991ae1a81",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Medium",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f70ef147fc193fa654",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Medium",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7952e056d55fc2abc",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7efcea5887c61de7a",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Medium",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7c9e421a4032ce0c6",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7b8b4817e31663d4d",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7e691e0e3445a9420",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f79acff9828f517e8d",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Medium",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7e72870efb6ce4638",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7ce085c85fbdbb3fe",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7de9468ff35b19b27",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f70f981375bcc325a4",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7f31d131763f5b1f9",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7e9e38026c8a7b1e1",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7e9e061ff020f5d07",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7f095cdd3632dbd00",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7a5cc9d18d76c7bdb",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f75ba010d1a2032569",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7c6b523453aaf934e",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f764fb7ce53474846d",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f74ad5c60782ee87a0",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7f13c556edde40615",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7c4362ded12a945d2",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f71bae15d8371e294a",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f74de5bf4f77b2cb6a",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f753e0a77f2a77d6ae",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f725dfd4c82f274362",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f73f85fd1a9594d8d7",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f78817e242ed66745c",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7cd15c4d18bad7448",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7a67a58c886b63244",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7933acac65377aa5a",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f721d23d34525aca61",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7b5cd811c470bc3e2",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f73d5cfe5138b59453",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f7e5d333b689416607",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		},
+		{
+			"column1": "62dc39f74b0663e2b41d03fb",
+			"column2": "Email",
+			"column3": "lorem ipsum dolor",
+			"column4": "2022-06-01T17:12:08.847Z",
+			"column5": "2022-08-20T17:12:08.847Z",
+			"column6": "Not addressed",
+			"column7": "Low",
+			"column8": "Not assigned"
+		}
+	]
+}

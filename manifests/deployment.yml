@@ -1,0 +1,21 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: devsitafrontend 
+  namespace: devsita-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devsitafrontend
+  template:
+    metadata:
+      labels:
+        app: devsitafrontend 
+    spec:
+      containers:
+        - name: devsitafrontend 
+          image: devsitaacr.azurecr.io/devsitafrontend
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 3000

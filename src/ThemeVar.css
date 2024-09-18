@@ -1,0 +1,338 @@
+:root {
+  --entityonboarding-bg-color: #000000;
+  --entityonboarding-text-color: #ffffff;
+  --formbar-bg-active-color: #53b0fe;
+  --formbar-bg-inactive-color: #ffffff;
+  --formbar-default-text-color: #343a40;
+  --formbar-default-active-color: #ffffff;
+
+  --admin-card-bg-color: #000000;
+  --admin-card-border: 1px solid #cacfd2;
+  --admin-card-boxshadow: rgba(255, 255, 255, 0.06) 0px 2px 4px,
+    rgba(255, 255, 255, 0.12) 0px 4px 6px;
+  --admin-card-logoImg-bg: #d9d9d9;
+  --gmaps-land-color: #2982cc;
+  --gmaps-water-color: #fff;
+  --riskdashboard-title-color: #ffffff;
+  --entityonboarding-title-color: #ffffff;
+  --card-bg-color: #ffffff;
+  --font-color: #000000;
+  --custom-info: #53b0fe;
+  --rdr-color: #ffffff;
+  --model-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --qascreen-width: 180px;
+  --qascreen-font: 10px;
+
+  --entityonboarding-bg-color: #000000;
+  --entityonboarding-text-color: #ffffff;
+  --entityonboarding-button-text-color: #ffffff;
+  --formbar-active-color: #53b0fe;
+  --admin-card-bg-color: #000000;
+  --admin-card-border: 1px solid #cacfd2;
+  --admin-card-boxshadow: rgba(255, 255, 255, 0.12) 0px 2px 4px,
+    rgba(255, 255, 255, 0.24) 0px 4px 6px;
+  --admin-card-logoImg-bg: #d9d9d9;
+  --gmaps-land-color: #2982cc;
+  --gmaps-water-color: #000000;
+
+  /* risk */
+  --riskonboarding-activedirectory-text-color: grey;
+  --riskonboarding-activedirectory-text-color-active: white;
+  --riskonboarding-screeno-title-color: #000000;
+  --riskonboarding-screeno-card-color: #000000;
+  --risk-button-card-color: #f1f9ff;
+  --riskonboarding-text-color: #ffffff;
+  --riskonboarding-bg-color: #000000;
+  --riskonboarding-input-bg-color: #000000;
+  --riskonboarding-input-font-color: #ffffff;
+
+  --active-directory-card-bg-bolor: #000000;
+  --active-directory-card-border: #c7c7c7;
+  --riskonboarding-button-text-color: #ffffff;
+  --riskonboarding-body-text-color: #ffffff;
+  --riskdashboard-title-color: #ffffff;
+  --entityonboarding-title-color: #ffffff;
+  --funnel-box-shadow: inset 0.625rem 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.5);
+  /* rosi */
+  --rosi-horizontal-line-color: rgba(255, 255, 255, 0.2);
+  /* global */
+  --bg-color: #000000;
+  --font-color: #ffffff;
+  --card-bg-color: #000000;
+  --input-box-color: #000000;
+  --formbar-bg-inactive-color: #ffffff;
+  --scroll-bar-bg-color: #ffffff;
+  --scroll-bar-thumb-bg-color: #ffffff;
+  --navbar-bg-color: #000000;
+  --navbar-sp-bg-color: #26555acc;
+  --navbar-bg-second-color: #000000;
+  --navbar-sp-bg-second-color: #26555a;
+  --navbar-dark-mode-button: rgba(38, 85, 90, 4);
+  --grid-container-thead-color: #000000;
+  --table-heading-color: #ffffff;
+  --modal-bg-color: #000000;
+  --modal-border-color: #ffffff;
+  --navlink-font-color: #ffffff;
+  --dropdown-onhover-color: #444444;
+  --muted-font-color: #ffffff;
+  --btn-close-bg: #ffffff;
+  --gb-card-border-color: #ffffff;
+  --option-onhovar: #292929;
+  --placeholder-color: #acacac;
+  /* Advisory model */
+  --model-bg: hsla(0, 1%, 18%, 0.987);
+  /* Dashboard */
+  --dashboard-title-color: #ffffff;
+  --dashboard-sub-title-color: #ffffff;
+  --KPICards-title-bg-color: #000000;
+  --perspective-head-color: #1f1f1f;
+  --card-border-color: #ffffff;
+
+  /* Main Title Global */
+  --main-title-font-color: #ffffff;
+
+  /* Insight Page */
+  --chart-header-isselected-color: #000000;
+  --chart-header-unselected-color: #000000;
+  --chart-header-tab-text-color: #ffffff;
+  --insight-daterange-bg-color: #ffffff;
+  --insight-daterange-color: #ffffff;
+  --insight-chart-header-text-color: #ffffff;
+  --insight-chart-header-onhover: #ffffff;
+  --insight-chart-header-onhover-active: #cecece;
+  --checkbox-label-color: #ffffff;
+  --insight-details-backlink-color: #ffffff;
+  --close-incident-background-color: #292929;
+  --insight-box-bg-color: #ffffff;
+  --insight-box-border-color: #000000;
+  --insight-link-color: #478ef8;
+  --security-pulse-details-text: #ffffff;
+  --insight-details-text: #ffffff;
+  --insight-toggle-button: #ffffff;
+  --insigh-custom-control-label: #ffffff;
+  --insight-card-bg-color: #000000;
+
+  --entity-form-check-color: #ffffff;
+  --criticality-category-form-check-color: #ffffff;
+  --assets-priority-form-check-color: #ffffff;
+  --status-form-check-color: #ffffff;
+
+  --entity-form-check-color-bg: #22aaff;
+  --criticality-category-form-check-color-bg: #22aaff;
+  --assets-priority-form-check-color-bg: #22aaff;
+  --status-form-check-color-bg: #22aaff;
+  --insight-grid-card-border: #ffffff;
+  --admin-company-text-color: #ffffff;
+
+  /* Analysis */
+  --analysis-tag-bg-color: #000000;
+  --anlysis-tag-tiltle-color: #ffffff;
+  --gridheader-select-bg-color: #51a7c2;
+  --alert-card-bg: #000000;
+  --grid-head-border-bottom: #ffffff;
+
+  /* Admin */
+  --table-search-border: #ffffff;
+  --formbar-default-text-color: #000000;
+  --admin-linear: var(--bg-color);
+  --admin-subtitle-color: #ffffff;
+  --admin-package-platinum: linear-gradient(
+    to top,
+    #000000 50%,
+    #000000 60%,
+    #d9d9d9 100%,
+    #d9d9d9 80%
+  );
+  --admin-package-gold: linear-gradient(
+    to top,
+    #000000 50%,
+    #000000 60%,
+    #fad472 100%,
+    #fad472 80%
+  );
+  --admin-package-silver: linear-gradient(
+    to top,
+    #000000 50%,
+    #000000 60%,
+    #d9d9d9 100%,
+    #d9d9d9 80%
+  );
+  --custom-info: #53b0fe;
+  --rdr-color: #000000;
+  --btn-hover-bg: #333;
+
+  /* cost of security controls */
+  --cost_scroll_color: #ffffff;
+}
+
+[data-theme="light"] {
+  --admin-card-bg-color: #ffffff;
+  --admin-card-border: 1px solid #000000;
+  --admin-card-boxshadow: rgb(31 41 55 / 6%) 0px 2px 4px,
+    rgb(100 116 139 / 12%) 0px 4px 6px;
+  --entityonboarding-bg-color: #ffffff;
+  --entityonboarding-button-text-color: #000000;
+
+  --gmaps-land-color: #2982cc;
+  --gmaps-water-color: #fff;
+  /* rosi */
+  --rosi-horizontal-line-color: rgba(0, 0, 0, 0.2);
+  /* risk */
+  --riskonboarding-activedirectory-text-color: rgb(0, 0, 0);
+  --riskonboarding-activedirectory-text-color-active: rgb(0, 0, 0);
+  --riskonboarding-screeno-title-color: #000000;
+  --riskonboarding-screeno-card-color: #f9f9f9;
+  --risk-button-card-color: #f1f9ff;
+  --riskonboarding-text-color: #000000;
+  --riskonboarding-body-text-color: #000000;
+
+  --riskonboarding-bg-color: #ffffff;
+  --riskonboarding-input-bg-color: #ffffff;
+  --riskonboarding-input-bg-color: #ffffff;
+  --riskonboarding-input-font-color: #000000;
+
+  --active-directory-card-bg-bolor: #f2f2f2;
+  --active-directory-card-border: #d0d0d0;
+  --riskonboarding-button-text-color: #000000;
+  --riskonboarding-body-text-color: #000000;
+  --riskdashboard-title-color: #ffffff;
+  --entityonboarding-title-color: #ffffff;
+  --entityonboarding-text-color: #000000;
+  --admin-company-text-color: #4b7276;
+  --funnel-box-shadow: inset 0.625rem 0.625rem 0.625rem 0
+    rgba(255, 255, 255, 0.5);
+
+  /* global */
+  --bg-color: #ffffff;
+  --font-color: #000000;
+  --card-bg-color: #f9f9f9;
+  --input-box-color: #ffffff;
+  --formbar-bg-inactive-color: #edebeb;
+  --scroll-bar-bg-color: #5251514d;
+  --navbar-bg-color: #26555acc;
+  --navbar-sp-bg-color: #26555acc;
+  --navbar-bg-second-color: #26555a;
+  --navbar-sp-bg-second-color: #26555a;
+  --scroll-bar-thumb-bg-color: #5f5f5f;
+  --navbar-dark-mode-button: rgba(38, 85, 90, 4);
+  --grid-container-thead-color: #ffffff;
+  --table-heading-color: #26555a;
+  --modal-bg-color: #ffffff;
+  --modal-border-color: #4d4d4d;
+  --navlink-font-color: #000000;
+  --dropdown-onhover-color: #e0e0e0;
+  --muted-font-color: #737373f2;
+  --btn-close-bg: transparent;
+  --gb-card-border-color: #737373f2;
+  --option-onhovar: hsl(195, 100%, 82%);
+  --placeholder-color: #333333;
+
+  /* Dashboard */
+  --dashboard-title-color: #000000;
+  --dashboard-sub-title-color: #000000;
+  --KPICards-title-bg-color: #d9d9d987;
+  --perspective-head-color: #cfcece;
+  --card-border-color: #0000002d;
+
+  /* Main Title Global */
+  --main-title-font-color: #4b7276;
+
+  /* Insight Page */
+  --chart-header-isselected-color: #ffffff;
+  --chart-header-unselected-color: #000000;
+  --chart-header-tab-text-color: #221d1d99;
+  --insight-daterange-bg-color: #51a7c2;
+  --insight-daterange-color: #51a7c2;
+  --insight-chart-header-text-color: #221d1d99;
+  --insight-chart-header-onhover: #51a7c2;
+  --checkbox-label-color: #1f1a1a;
+  --card-heading-color: #1a1a1a;
+  --card-title-color: #000000;
+  --insight-details-backlink-color: #4b7276;
+  --close-incident-background-color: "";
+  --insight-box-bg-color: #51a7c2;
+  --insight-box-border-color: rgba(139, 221, 241, 0.1);
+  --insight-link-color: #0000ff;
+  --security-pulse-details-text: #333333;
+  --insight-details-text: #333333;
+  --insight-toggle-button: #000000cc;
+  --insigh-custom-control-label: rgba(38, 85, 90, 4);
+  --insight-card-bg-color: #ffffff;
+  --insight-grid-card-border: #0000002c;
+
+  /* Analysis */
+  --analysis-tag-bg-color: #f5f1f1;
+  --anlysis-tag-tiltle-color: #999999;
+  --gridheader-select-bg-color: #13b4e5;
+  --grid-head-border-bottom: #26555a;
+  --alert-card-bg: #ffdbdb;
+
+  /* cost */
+  --cost_scroll_color: #000000;
+  /* checkbox var */
+  --entity-form-check-color: #70725a;
+  --criticality-category-form-check-color: #13b4e5;
+  --assets-priority-form-check-color: #16293a;
+  --status-form-check-color: #6e9537;
+  --entity-form-check-color-bg: #70725a;
+  --criticality-category-form-check-color-bg: #13b4e5;
+  --assets-priority-form-check-color-bg: #16293a;
+  --status-form-check-color-bg: #6e9537;
+
+  /* Admin */
+  --table-search-border: #ced4da;
+  --admin-subtitle-color: #33495e;
+  --formbar-default-text-color: #343a40;
+  --admin-linear: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 0%,
+    #26555a0e 90%,
+    #26555a00 100%
+  );
+  --admin-package-platinum: linear-gradient(
+    to top,
+    #ffffff 80%,
+    #ffffff 70%,
+    #d9d9d9 100%,
+    #d9d9d9 80%
+  );
+  --admin-package-gold: linear-gradient(
+    to top,
+    #ffffff 80%,
+    #ffffff 70%,
+    #fad472 100%,
+    #fad472 80%
+  );
+  --admin-package-silver: linear-gradient(
+    to top,
+    #ffffff 80%,
+    #ffffff 70%,
+    #d9d9d9 100%,
+    #d9d9d9 80%
+  );
+  --custom-info: #53b0fe;
+  --rdr-color: #ffffff;
+  --btn-hover-bg: #cacaca;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+#React-tooltip {
+  font-size: 0.85rem !important;
+}

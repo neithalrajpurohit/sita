@@ -1,0 +1,128 @@
+{
+  "roles": [
+    {
+      "name": "SITAADMIN",
+      "claims": [
+        "Analysis_Menu",
+        "PerspectiveGrid_Add",
+        "PerspectiveGrid_Edit",
+        "PerspectiveGrid_View",
+        "PerspectiveGrid_Delete",
+        "PerspectiveGrid_Download",
+        "PerspectiveGrid_Share",
+        "PerspectiveDetail_Edit",
+        "PerspectiveDetail_Download",
+        "SecurityPulseGrid_Add",
+        "SecurityPulseGrid_Edit",
+        "SecurityPulseGrid_View",
+        "SecurityPulseGrid_Delete",
+        "SecurityPulseGrid_Download",
+        "SecurityPulseGrid_Share",
+        "SecurityPulseDetail_Edit",
+        "SecurityPulseDetail_Download"
+      ]
+    },
+    {
+      "name": "CLIENTUSER",
+      "claims": [
+        "Analysis_Menu",
+        "PerspectiveGrid_View",
+        "PerspectiveDetail_Download",
+        "PerspectiveGrid_Download",
+        "PerspectiveGrid_Share",
+        "SecurityPulseGrid_View",
+        "SecurityPulseDetail_Download",
+        "SecurityPulseGrid_Download",
+        "SecurityPulseGrid_Share"
+      ]
+    },
+    {
+      "name": "ETEKANALYST",
+      "claims": [
+        "Analysis_Menu",
+        "PerspectiveGrid_Add",
+        "PerspectiveGrid_Edit",
+        "PerspectiveGrid_View",
+        "PerspectiveGrid_Delete",
+        "PerspectiveGrid_Download",
+        "PerspectiveGrid_Share",
+
+        "PerspectiveDetail_Edit",
+        "PerspectiveDetail_Download",
+
+        "SecurityPulseGrid_Add",
+        "SecurityPulseGrid_Edit",
+        "SecurityPulseGrid_View",
+        "SecurityPulseGrid_Delete",
+        "SecurityPulseGrid_Download",
+        "SecurityPulseGrid_Share",
+        "SecurityPulseDetail_Edit",
+        "SecurityPulseDetail_Download"
+      ]
+    },
+    {
+      "name": "CLIENTADMIN",
+      "claims": [
+        "Analysis_Menu",
+        "Admin_Menu",
+        "PerspectiveGrid_View",
+        "PerspectiveGrid_Download",
+        "PerspectiveGrid_Share",
+        "PerspectiveDetail_Download",
+
+        "SecurityPulseGrid_View",
+        "SecurityPulseGrid_Download",
+        "SecurityPulseGrid_Share",
+        "SecurityPulseDetail_Download"
+      ]
+    },
+    {
+      "name": "SUPERUSER",
+      "claims": [
+        "Analysis_Menu",
+        "PerspectiveGrid_Add",
+        "PerspectiveGrid_Edit",
+        "PerspectiveGrid_View",
+        "PerspectiveGrid_Delete",
+        "PerspectiveGrid_Download",
+        "PerspectiveGrid_Share",
+
+        "PerspectiveDetail_Edit",
+        "PerspectiveDetail_Download",
+
+        "SecurityPulseGrid_Add",
+        "SecurityPulseGrid_Edit",
+        "SecurityPulseGrid_View",
+        "SecurityPulseGrid_Delete",
+        "SecurityPulseGrid_Download",
+        "SecurityPulseGrid_Share",
+        "SecurityPulseDetail_Edit",
+        "SecurityPulseDetail_Download"
+      ]
+    },
+    {
+      "name": "Tenant Specific",
+      "claims": [
+        "Analysis_Menu",
+        "PerspectiveGrid_Add",
+        "PerspectiveGrid_Edit",
+        "PerspectiveGrid_View",
+        "PerspectiveGrid_Delete",
+        "PerspectiveGrid_Download",
+        "PerspectiveGrid_Share",
+
+        "PerspectiveDetail_Edit",
+        "PerspectiveDetail_Download",
+
+        "SecurityPulseGrid_Add",
+        "SecurityPulseGrid_Edit",
+        "SecurityPulseGrid_View",
+        "SecurityPulseGrid_Delete",
+        "SecurityPulseGrid_Download",
+        "SecurityPulseGrid_Share",
+        "SecurityPulseDetail_Edit",
+        "SecurityPulseDetail_Download"
+      ]
+    }
+  ]
+}

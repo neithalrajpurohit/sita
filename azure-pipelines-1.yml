@@ -1,0 +1,99 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+
+trigger:
+- development
+
+pool:
+  name: 'dev-sita-devops-agent'
+
+variables:
+  containerRegistry: 'newdevsitaacr.azurecr.io'
+  imageRepository: 'devsitafrontend'
+  storageaccount: 'devsitastorageaccount'
+  resourcegroup: 'DEV-SITA'
+  sacontainername: 'devsita-scanreport-frontend'
+  serviceconn: 'DEV-SITA-RG-SC' 
+  target: $(build.artifactstagingdirectory)
+  artifact: AM
+  tag: $(Build.BuildId)
+  
+steps:
+- task: Docker@2
+  displayName: 'Build and push to ACR'
+  inputs:
+    containerRegistry: 'DEV-SITA-ACR-SC'
+    repository: 'devsitafrontend'
+    command: 'buildAndPush'
+    Dockerfile: 'Dockerfile'
+    tags: |
+      $(tag)
+
+- upload: manifests
+  artifact: manifests
+
+- task: CmdLine@2
+  displayName: DOWNLOAD AND INSTALL AQUASEC TRIVY
+  inputs:
+    script: |
+         sudo apt-get install wget apt-transport-https gnupg lsb-release
+         wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+         echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+         sudo apt-get update
+         sudo apt-get install trivy
+         trivy -v
+         pwd
+    
+- task: CmdLine@2
+  displayName: RUN AQUASEC TRIVY SCAN AND COPY TO ARTIFACTS STAGING DIRECTORY
+  inputs:
+    script: |
+          trivy image --exit-code 0 --severity LOW,MEDIUM $(containerRegistry)/$(imageRepository):$(tag) > low-med-image-report.txt
+          trivy image --exit-code 1 --severity HIGH,CRITICAL $(containerRegistry)/$(imageRepository):$(tag) > high-critical-image-report.txt
+          trivy fs --security-checks vuln,secret,config ./ > security-report.txt
+          ls -l
+          cp -rvf *-report.txt $(target)
+
+- task: PublishBuildArtifacts@1
+  displayName: PUBLISH ARTIFACTS
+  inputs:
+    targetPath: '$(target)'
+    artifactName: '$(artifact)'
+
+- task: DownloadBuildArtifacts@1
+  displayName: DOWNLOAD ARTIFACTS
+  inputs:
+    buildType: 'current'
+    downloadType: 'specific'
+    downloadPath: '$(System.ArtifactsDirectory)'
+
+- task: AzureCLI@1
+  displayName: COPY AQUASEC TRIVY SCAN REPORTS TO BLOB STORAGE
+  inputs:
+    azureSubscription: '$(serviceconn)'
+    scriptType: ps
+    scriptLocation: inlineScript
+    inlineScript: |
+          az storage blob upload-batch -d $(sacontainername)/$(date "+%d-%m-%Y_%H-%M-%S") --account-name $(storageaccount) --account-key $(az storage account keys list -g $(resourcegroup) -n $(storageaccount) --query [0].value -o tsv) -s $(System.ArtifactsDirectory)/$(artifact)
+
+
+- task: AzureCLI@2
+  displayName: 'Deploy to AKS'
+  inputs:
+    azureSubscription: '$(serviceconn)'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    workingDirectory: '$(System.ArtifactsDirectory)'
+    inlineScript: |
+      az account set --subscription 42450a29-a52c-41bb-9f63-faecbdaea2db
+      az aks get-credentials --resource-group DEV-SITA --name DevSita-Cluster --admin
+      
+      kubectl apply -f $(Pipeline.Workspace)/s/manifests/
+      kubectl set image deployment/devsitafrontend devsitafrontend=$(containerRegistry)/$(imageRepository):$(tag) -n devsita-app
+
+      
+      
+      

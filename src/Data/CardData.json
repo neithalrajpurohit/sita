@@ -1,0 +1,17 @@
+[ 
+    {
+        "title":"Desktop",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sint aut pariatur iste autem, perspiciatis illo quaerat! Reprehenderit optio consequatur veritatis nemo commodi debitis dolore!",
+        "iconclass":"fa-solid fa-display"
+    },
+    {
+        "title":"Laptop",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sint aut pariatur iste autem, perspiciatis illo quaerat! Reprehenderit optio consequatur veritatis nemo commodi debitis dolore!",
+        "iconclass":"fa-solid fa-laptop"
+    },
+    {
+        "title":"Mobile",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sint aut pariatur iste autem, perspiciatis illo quaerat! Reprehenderit optio consequatur veritatis nemo commodi debitis dolore!",
+        "iconclass": "fa-solid fa-mobile-screen"
+    }
+]

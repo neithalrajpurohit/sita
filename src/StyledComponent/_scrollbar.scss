@@ -1,0 +1,40 @@
+.scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.scrollbar::-moz-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}
+
+.scrollbar::-moz-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}
+
+// react selecte scrollbar
+.rs__menu-list::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.rs__menu-list::-moz-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.rs__menu-list::-webkit-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}
+
+.rs__menu-list::-moz-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}

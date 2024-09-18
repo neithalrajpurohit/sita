@@ -1,0 +1,44 @@
+{
+    "formData":{
+        "pageTitle": " Nuevo ataque NTLM Relay",
+        "sections": [
+          {
+            "mainTitle":
+              "Un nuevo ataque de retransmisión NTLM denominado DFSCoerce se aprovecha del Sistema de archivos distribuido (DFS) con el fin de tomar control de un dominio de windows.",
+            "imgData": "/images/BlueChartLineUp.svg",
+            "info": "El ataque de retrasnmisión NTLM es un método que consiste en la explotación del mecanismo desafío-respuesta. Esto permite a un atacante posicionarse entre un cliente y un servidor e interceptar y transmitir solicitudes de autenticación validadas y así obtener acceso no autorizado a los recursos de una red o en el caso de DFSCoerce, potencialmente apoderarse de todo un dominio."
+          },
+          {
+            "mainTitle":
+              "Un nuevo ataque de retransmisión NTLM denominado DFSCoerce se aprovecha del Sistema de archivos distribuido (DFS) con el fin de tomar control de un dominio de windows.",
+            "imgData": "/images/BlueChartLineUp.svg",
+            "info": "El ataque de retrasnmisión NTLM es un método que consiste en la explotación del mecanismo desafío-respuesta. Esto permite a un atacante posicionarse entre un cliente y un servidor e interceptar y transmitir solicitudes de autenticación validadas y así obtener acceso no autorizado a los recursos de una red o en el caso de DFSCoerce, potencialmente apoderarse de todo un dominio."
+          }
+        ],
+        "recommendations": [
+          "Habilitar la protección extendida para funciones de autenticación (EPA) así como la firma SMB para proteger las credenciales de Windows ",
+          "HTTP en los servidores AD CS",
+          "Desactivar NTLM en los controladores de dominio"
+        ],
+        "links": [
+          "https://support.microsoft.com/en-gb/topic/kb5005413-mitigating-ntlm-relay-attacks-on-active-directory-certificate- services-ad-cs-3612b773-4043-4aa9-b23d-b87910cd3429",
+          "Desactivar HTTP en los servidores AD CS",
+          "https://securityaffairs.co/wordpress/13"
+        ],
+        "assetsTags": ["Laptop", "Mobile", "Tablet"]
+    },
+    "footerData":{
+        "link":"info@etek.com",
+        "contacts":[
+            {"name":"Colombia",
+            "contactNo":"+57(1)2571520"
+            },
+            {"name":"Peru'",
+            "contactNo":"+51(1)6124343"
+            },
+            {"name":"India",
+            "contactNo":"+91-9873451221"
+            }
+    ]
+    }
+  }

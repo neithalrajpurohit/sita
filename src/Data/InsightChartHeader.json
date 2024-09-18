@@ -1,0 +1,49 @@
+{
+	"chartHeader":{
+		"headerTabs":["UseCase","Assets","Entity"],
+		"headerTabCheckboxes":[
+		{
+			"displaySequence":1,
+			"checkboxValue":"Entity",
+			"checkboxLabel":"Entity",
+			"checkboxTabs":["UseCase","Assets"]
+			
+		},
+		{
+			"displaySequence":2,
+			"checkboxValue":"Location",
+			"checkboxLabel":"Geo",
+			"checkboxTabs":["UseCase","Assets","Entity"]
+			
+		},	
+		{
+			"displaySequence":3,
+			"checkboxValue":"Function",
+			"checkboxLabel":"Function",
+			"checkboxTabs":["UseCase","Assets","Entity"]
+			
+		},		
+		{
+			"displaySequence":4,
+			"checkboxValue":"Assets",
+			"checkboxLabel":"Assets",
+			"checkboxTabs":["UseCase","Entity"]
+			
+		},	
+		{
+			"displaySequence":5,
+			"checkboxValue":"Process",
+			"checkboxLabel":"Process",
+			"checkboxTabs":["UseCase","Assets","Entity"]
+			
+		},		
+		{
+			"displaySequence":6,
+			"checkboxValue":"Criticality",
+			"checkboxLabel":"Criticality",
+			"checkboxTabs":["UseCase","Assets","Entity"]
+			
+		}
+		]
+	}
+}

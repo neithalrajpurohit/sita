@@ -1,0 +1,365 @@
+{
+  "FunnelData": [
+    {
+      "value": 201098877412233,
+      "text": "Coleccion",
+      "color": "#2374B9"
+    },
+    {
+      "value": 10771,
+      "text": "Deteccion - Eventos asociados a ofensas",
+      "color": "#065DA6"
+    },
+    {
+      "value": 895,
+      "text": "Triage - Casos Notifications",
+      "color": "#044B86"
+    },
+    {
+      "value": 10,
+      "text": "Triage - Casos Notifications",
+      "color": "#05335A"
+    },
+    {
+      "value": 3,
+      "text": "Remedicaion Grupo resolutor casos notoficados",
+      "color": "#B72A35"
+    }
+  ],
+  "FillIndicator": [
+    {
+      "title": "Some Title With Emoji",
+      "color": "#1DBC36",
+      "val": 90
+    },
+    {
+      "title": "Some Title With Emoji",
+      "color": "#A51515",
+      "val": 20
+    },
+    {
+      "title": "Some Title With Emoji",
+      "color": "#BC561D",
+      "val": 50
+    }
+  ],
+  "BarChart1": {
+    "chart": {
+      "type": "column",
+      "zoomType": "x"
+    },
+    "title": {
+      "text": "FPR",
+      "align": "left"
+    },
+    "xAxis": {
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "crosshair": false
+    },
+    "yAxis": {
+      "min": 0,
+      "title": {
+        "text": "Rainfall (mm)"
+      }
+    },
+    "colors": [" #35B048", "#E5486E"],
+    "credits": {
+      "enabled": true,
+      "text": "Powered By Netrum",
+      "href": ""
+    },
+    "exporting": {
+      "buttons": {
+        "contextButton": {
+          "menuItems": [
+            "downloadPNG",
+            "downloadJPEG",
+            "downloadPDF",
+            "downloadSVG",
+            "separator",
+            "downloadCSV",
+            "downloadXLS",
+            "viewData",
+            "openInCloud"
+          ]
+        }
+      }
+    },
+    "series": [
+      {
+        "name": "Tokyo",
+        "data": [
+          ["2015", 0.06],
+          ["2020", 0.04],
+          ["2015", 0.55],
+          ["2020", 0.89],
+          ["2020", 0.01],
+          ["2015", 0.76]
+        ]
+      },
+      {
+        "name": "New York",
+        "data": [
+          ["2020", 0.04],
+          ["2015", 0.55],
+          ["2020", 0.89],
+          ["2020", 0.01],
+          ["2015", 0.55],
+          ["2020", 0.89],
+          ["2015", 0.55],
+          ["2020", 0.01],
+          ["2020", 0.01],
+          ["2015", 0.55],
+          ["2020", 0.89],
+          ["2020", 0.89],
+          ["2020", 0.01],
+          ["2015", 0.06],
+          ["2015", 0.76]
+        ]
+      }
+    ]
+  },
+  "BarChart2": {
+    "chart": {
+      "type": "column",
+      "zoomType": "x"
+    },
+    "title": {
+      "text": "U.S Solar Employment Growth by Job Category, 2010-2020",
+      "align": "left"
+    },
+
+    "xAxis": {
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "crosshair": false
+    },
+    "yAxis": {
+      "min": 0,
+      "title": {
+        "text": "Rainfall (mm)"
+      }
+    },
+    "colors": [" #35B048", "#E5486E"],
+    "credits": {
+      "enabled": true,
+      "text": "Powered By Netrum",
+      "href": ""
+    },
+    "exporting": {
+      "buttons": {
+        "contextButton": {
+          "menuItems": [
+            "downloadPNG",
+            "downloadJPEG",
+            "downloadPDF",
+            "downloadSVG",
+            "separator",
+            "downloadCSV",
+            "downloadXLS",
+            "viewData",
+            "openInCloud"
+          ]
+        }
+      }
+    },
+    "series": [
+      {
+        "name": "Tokyo",
+        "data": [
+          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
+          95.6, 54.4
+        ]
+      },
+      {
+        "name": "New York",
+        "data": [
+          83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6,
+          92.3
+        ]
+      }
+    ]
+  },
+  "BarChart3": {
+    "chart": {
+      "type": "column",
+      "zoomType": "x"
+    },
+    "title": {
+      "text": "U.S Solar Employment Growth by Job Category, 2010-2020",
+      "align": "left"
+    },
+
+    "xAxis": {
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "crosshair": false
+    },
+    "yAxis": {
+      "min": 0,
+      "title": {
+        "text": "Rainfall (mm)"
+      }
+    },
+    "colors": [" #35B048", "#E5486E"],
+    "credits": {
+      "enabled": true,
+      "text": "Powered By Netrum",
+      "href": ""
+    },
+    "exporting": {
+      "buttons": {
+        "contextButton": {
+          "menuItems": [
+            "downloadPNG",
+            "downloadJPEG",
+            "downloadPDF",
+            "downloadSVG",
+            "separator",
+            "downloadCSV",
+            "downloadXLS",
+            "viewData",
+            "openInCloud"
+          ]
+        }
+      }
+    },
+    "series": [
+      {
+        "name": "Tokyo",
+        "data": [
+          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
+          95.6, 54.4
+        ]
+      },
+      {
+        "name": "New York",
+        "data": [
+          83.6, 78.8, 98.5, 93.4, 106.0, 84.5, 105.0, 104.3, 91.2, 83.5, 106.6,
+          92.3
+        ]
+      }
+    ]
+  },
+  "LineChart": {
+    "chart": {
+      "type": "spline",
+      "zoomType": "x"
+    },
+    "title": {
+      "text": "U.S Solar Employment Growth by Job Category, 2010-2020",
+      "align": "left"
+    },
+
+    "yAxis": {
+      "title": {
+        "text": "Number of Employees"
+      }
+    },
+
+    "xAxis": {
+      "accessibility": {
+        "rangeDescription": "Range: 2021 to 2022"
+      }
+    },
+
+    "colors": [
+      "#8D7B68",
+      "#3C486B",
+      "#B9EDDD",
+      "#088395",
+      "#917FB3",
+      "#D14D72",
+      "#F45050"
+    ],
+    "credits": {
+      "enabled": true,
+      "text": "Powered By Netrum",
+      "href": ""
+    },
+    "exporting": {
+      "buttons": {
+        "contextButton": {
+          "menuItems": [
+            "downloadPNG",
+            "downloadJPEG",
+            "downloadPDF",
+            "downloadSVG",
+            "downloadCSV",
+            "downloadXLS",
+            "viewData"
+          ]
+        }
+      }
+    },
+    "series": [
+      {
+        "name": "Installation & Developers",
+        "data": [
+          43934, 48656, 65165, 81827, 112143, 142383, 171533, 165174, 155157,
+          161454, 154610
+        ]
+      },
+      {
+        "name": "Operations & Maintenance",
+        "data": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          11164,
+          11218,
+          10077
+        ]
+      },
+      {
+        "name": "Other",
+        "data": [
+          21908, 5548, 8105, 11248, 8989, 11816, 18274, 17300, 13053, 11906,
+          10073
+        ]
+      }
+    ]
+  }
+}

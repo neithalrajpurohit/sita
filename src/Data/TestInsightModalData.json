@@ -1,0 +1,93 @@
+[
+   { 
+    "title":"Level 1 Filter",
+    "subTitle":"(Select 1)",
+    "checkboxes":[
+        {
+            "displaySequence":1,
+            "checkboxValue":"Insights",
+            "checkboxLabel":"Insights"                
+        },
+        {
+            "displaySequence":2,
+            "checkboxValue":"OEI",
+            "checkboxLabel":"OEI"                
+        },
+        {
+            "displaySequence":3,
+            "checkboxValue":"RoSI",
+            "checkboxLabel":"RoSI"                
+        },
+        {
+            "displaySequence":4,
+            "checkboxValue":"Risk",
+            "checkboxLabel":"Risk"                
+        }
+    ]
+},
+
+{ 
+    "title":"Level 2 Filter ",
+    "subTitle":"(Select 1)",
+    "checkboxes":[
+        {
+            "displaySequence":1,
+            "checkboxValue":"Use Case",
+            "checkboxLabel":"Use Case"                
+        },
+        {
+            "displaySequence":2,
+            "checkboxValue":"Assets",
+            "checkboxLabel":"Assets"                
+        },
+        {
+            "displaySequence":3,
+            "checkboxValue":"Entity",
+            "checkboxLabel":"Entity"                
+        },
+        {
+            "displaySequence":4,
+            "checkboxValue":"Resolution",
+            "checkboxLabel":"Resolution"                
+        },
+        {
+            "displaySequence":5,
+            "checkboxValue":"False Positives",
+            "checkboxLabel":"False Positives"                
+        }
+    ]
+},
+
+{ 
+    "title":"Level 3 Filter",
+    "subTitle":"(Select upto 2)",
+    "checkboxes":[
+        {
+            "displaySequence":1,
+            "checkboxValue":"Entity",
+            "checkboxLabel":"Entity"                
+        },
+        {
+            "displaySequence":2,
+            "checkboxValue":"Geo",
+            "checkboxLabel":"Geo"                
+        },
+        {
+            "displaySequence":3,
+            "checkboxValue":"Functions",
+            "checkboxLabel":"Functions"                
+        },
+        {
+            "displaySequence":4,
+            "checkboxValue":"Criticality",
+            "checkboxLabel":"Criticality"                
+        },
+        {
+            "displaySequence":5,
+            "checkboxValue":"Process",
+            "checkboxLabel":"Process"                
+        }
+    ]
+}
+
+]

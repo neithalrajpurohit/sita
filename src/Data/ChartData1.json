@@ -1,0 +1,406 @@
+[
+
+    {
+        "heading":"Use Case --> Entity,Assest,Criticality",
+    "charFooter":{
+    "label":"SLA  Compliance",
+    "value":"95%",
+    "valueFontColor":"green"
+    },
+    "legends": {
+        "header": "Assets",
+        "items": [
+            {
+                "name": "Laptop",
+                "color": "#16293A"
+            },
+            {
+                "name": "Desktop",
+                "color": "#437DB1"
+            }, 
+            {
+                "name": "Mobile",
+                "color": "#165B65"
+            }
+        ]
+    },
+    "doughnutlabel": {
+        "labels": [
+            {
+                "text": "Incidents 32,153",
+                "font": {
+                    "size": "25"
+                },
+                "color": "black"
+            },
+            {
+                "text": "High 22k",
+                "font": {
+                    "size": "25"
+                },
+                "color": "#A11B1C"
+            },
+            {
+                "text": "Medium 7k",
+                "font": {
+                    "size": "25"
+                },
+                "color": "#C1900F"
+            },
+            {
+                "text": "Low 3k",
+                "font": {
+                    "size": "25"
+                },
+                "color": "#1DBC36"
+            }
+        ]
+    },
+    "datasets": [
+        {
+            "id": 3,
+            "label": "criticality",
+            "showDataLabel": false,
+            "dataLabelColor": "",
+            "data": [
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                10,
+                10,
+                10,
+                10,
+                9,
+                10,
+                4,
+                4,
+                0,
+                4,
+                2,
+                2,
+                3,
+                3,
+                3
+            ],
+            "originalData": [
+                10,
+                20,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                20,
+                20,
+                20,
+                100,
+                100,
+                100,
+                100,
+                90,
+                100,
+                40,
+                40,
+                0,
+                40,
+                20,
+                20,
+                30,
+                30,
+                30
+            ],
+            "hierarchy": [
+                "entity1~14*laptop~80*high~10",
+                "entity1~14*laptop~80*medium~20",
+                "entity1~14*laptop~80*low~10",
+                "entity1~14*desktop~60*high~10",
+                "entity1~14*desktop~60*medium~10",
+                "entity1~14*desktop~60*low~10",
+                "entity1~14*mobile~60*high~10",
+                "entity1~14*mobile~60*medium~10",
+                "entity1~14*mobile~60*low~10",
+                "entity2~91*laptop~33*high~20",
+                "entity2~91*laptop~33*medium~20",
+                "entity2~91*laptop~33*low~20",
+                "entity2~91*desktop~22*high~100",
+                "entity2~91*desktop~22*medium~100",
+                "entity2~91*desktop~22*low~100",
+                "entity2~91*mobile~11*high~100",
+                "entity2~91*mobile~11*medium~90",
+                "entity2~91*mobile~11*low~100",
+                "entity3~35*laptop~66*high~40",
+                "entity3~35*laptop~66*medium~40",
+                "entity3~35*laptop~66*low~0",
+                "entity3~35*desktop~33*high~40",
+                "entity3~35*desktop~33*medium~20",
+                "entity3~35*desktop~33*low~20",
+                "entity3~35*mobile~77*high~30",
+                "entity3~35*mobile~77*medium~30",
+                "entity3~35*mobile~77*low~30"
+            ],
+            
+            "backgroundColor": [
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C",
+                "#B72A35",
+                "#F0AE0C",
+                "#25BA3C"
+            ],
+            "labels": [
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low",
+                "high",
+                "medium",
+                "low"
+            ],
+            "spacing": 15,
+            "weight": 7
+        },
+        {
+            "id": 2,
+            "label": "assest",
+            "showDataLabel": false,
+            "dataLabelColor": "#ffffff",
+            "data": [
+                4,
+                3,
+                3,
+                6,
+                30,
+                29,
+                8,
+                8,
+                9
+            ],
+            "originalData": [
+                80,
+                60,
+                60,
+                33,
+                22,
+                11,
+                66,
+                33,
+                77
+            ],
+            "hierarchy": [
+                "entity1~14*laptop~80",
+                "entity1~14*desktop~60",
+                "entity1~14*mobile~60",
+                "entity2~91*laptop~33",
+                "entity2~91*desktop~22",
+                "entity2~91*mobile~11",
+                "entity3~35*laptop~66",
+                "entity3~35*desktop~33",
+                "entity3~35*mobile~77"
+            ],
+            "backgroundColor": [
+                "#16293A",
+                "#437DB1",
+                "#165B65",
+                "#16293A",
+                "#437DB1",
+                "#165B65",
+                "#16293A;",
+                "#437DB1",
+                "#165B65"
+            ],
+            "labels": [
+                "laptop",
+                "desktop",
+                "mobile",
+                "laptop",
+                "desktop",
+                "mobile",
+                "laptop",
+                "desktop",
+                "mobile"
+            ],
+            "spacing": 30,
+            "weight": 5
+        },
+        {
+            "id": 1,
+            "label": "entity",
+            "showDataLabel": false,
+            "dataLabelColor": "",
+            "data": [
+                10,
+                65,
+                25
+            ],
+            "originalData": [
+                14,
+                91,
+                35
+            ],
+            "hierarchy": [
+                "entity1~14",
+                "entity2~91",
+                "entity3~35"
+            ],
+            "labels": [
+                "entity1",
+                "entity2",
+                "entity3"
+            ],
+            "backgroundColor": [
+                "#ACAE98",
+                "#D1D2C6",
+                "#38392D"
+            ],
+            "spacing": 45,
+            "weight": 5
+        }
+    ]
+},
+{
+    "heading":"Asset --> Entity",
+    "charFooter":{
+    "label":"SLA  Compliance",
+    "value":"95%",
+    "valueFontColor":"green"
+    },
+    "legends": {
+        "header": "Assets",
+        "items": [
+            {
+                "name": "Laptop",
+                "color": "#16293A"
+            },
+            {
+                "name": "Desktop",
+                "color": "#437DB1"
+            }, 
+            {
+                "name": "Mobile",
+                "color": "#165B65"
+            }
+        ]
+    },
+    "doughnutlabel": {
+        "labels": [
+            {
+                "text": "Incidents 32,153",
+                "font": {
+                    "size": "25"
+                },
+                "color": "black"
+            },
+            {
+                "text": "High 22k",
+                "font": {
+                    "size": "25"
+                },
+                "color": "#A11B1C"
+            },
+            {
+                "text": "Medium 7k",
+                "font": {
+                    "size": "25"
+                },
+                "color": "#C1900F"
+            },
+            {
+                "text": "Low 3k",
+                "font": {
+                    "size": "25"
+                },
+                "color": "#1DBC36"
+            }
+        ]
+    },
+    "datasets": [
+       
+       
+        {
+            "id": 1,
+            "label": "entity",
+            "showDataLabel": false,
+            "dataLabelColor": "",
+            "data": [
+                10,
+                65,
+                25
+            ],
+            "originalData": [
+                14,
+                91,
+                35
+            ],
+            "hierarchy": [
+                "entity1~14",
+                "entity2~91",
+                "entity3~35"
+            ],
+            "labels": [
+                "entity1",
+                "entity2",
+                "entity3"
+            ],
+            "backgroundColor": [
+                "#ACAE98",
+                "#D1D2C6",
+                "#38392D"
+            ],
+            "spacing": 45,
+            "weight": 5
+        }
+    ]
+}
+]

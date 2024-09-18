@@ -1,0 +1,18 @@
+[{
+  "fromDate": "2022-08-01",
+  "toDate": "2022-08-11",
+  "region": "entity2~91*desktop~22",
+  "selectedOption": "Use Case",
+  "selectedFilter": [ "Criticality" ],
+  "dropdownFilters": [
+    { "id": "Asset Type", "value": "Email" },
+    { "id": "Geography", "value": "Select" },
+    { "id": "ORG", "value": "Select" }
+  ]
+},
+{
+  "fromDate": "2022-08-01",
+  "toDate": "2022-08-11",
+  "selectedOption": "Use Case",
+  "selectedFilter": [ "Criticality" ]
+}]

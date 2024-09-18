@@ -1,0 +1,97 @@
+{
+	"chartHeader":{
+		"headerTabs":["SLA","Tickets"],
+		"headerTabCheckboxes":[
+		{
+			"displaySequence":1,
+			"checkboxValue":"Category",
+			"checkboxLabel":"Category",
+			"checkboxTabs":["Tickets"]
+		},
+		{
+			"displaySequence":2,
+			"checkboxValue":"Priority",
+			"checkboxLabel":"Priority",
+			"checkboxTabs":["Tickets"]
+		},	
+		{
+			"displaySequence":3,
+			"checkboxValue":"Status",
+			"checkboxLabel":"Status",
+			"checkboxTabs":["Tickets"]
+		},		
+		{
+			"displaySequence":4,
+			"checkboxValue":"Reopened",
+			"checkboxLabel":"Reopened",
+			"checkboxTabs":["Tickets"]
+		},	
+		{
+			"displaySequence":5,
+			"checkboxValue":"First_Response_Time",
+			"checkboxLabel":"First Response Time",
+			"checkboxTabs":["Tickets"]
+		},		
+		{
+			"displaySequence":6,
+			"checkboxValue":"Response_Time",
+			"checkboxLabel":"Resolution Time",
+			"checkboxTabs":["Tickets"]
+		},
+        {
+			"displaySequence":7,
+			"checkboxValue":"False_Positives",
+			"checkboxLabel":"False Positives",
+			"checkboxTabs":["Tickets"]
+		},
+        {
+			"displaySequence":8,
+			"checkboxValue":"Cpu Utilization",
+			"checkboxLabel":"Cpu Utilization",
+			"checkboxTabs":["Infrastructure"]
+		},
+        {
+			"displaySequence":9,
+			"checkboxValue":"Memory_Utilization",
+			"checkboxLabel":"Memory Utilization",
+			"checkboxTabs":["Infrastructure"]
+		},
+        {
+			"displaySequence":10,
+			"checkboxValue":"Network_Io",
+			"checkboxLabel":"Network Io",
+			"checkboxTabs":["Infrastructure"]
+		},
+        {
+			"displaySequence":11,
+			"checkboxValue":"Average_Response_Time",
+			"checkboxLabel":"Average Response Time",
+			"checkboxTabs":["Infrastructure"]
+		}
+		],
+		"dropdownFilter_Hide":[
+			{
+			  "id": "Services",
+			  "dropdownTabs":["SLA"],
+			  "dropdownoption": [
+				{
+				  "value": "value0",
+				  "label": "Service"
+				},
+				{
+				  "value": "SOC",
+				  "label": "SOC"
+				},
+				{
+				  "value": "value2",
+				  "label": "value2"
+				},
+				{
+				  "value": "value3",
+				  "label": "value3"
+				}
+			  ]
+			}
+		]
+	}
+}

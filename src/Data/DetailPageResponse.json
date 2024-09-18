@@ -1,0 +1,104 @@
+{
+    "heading":"Dashboard/Asset-Laptop/Incident 123444",
+	"incidentStatus":
+	{
+		"text":"In-Progress",
+		"color":"#ffc107"
+	},
+    "cards":[
+        {
+            "cardTitle":"RED",
+            "textColor":"#ff0000",
+            "cardSubTitle":"Threat Level",
+			"cardIcon":"RedCaution"
+        },
+        {
+            "cardTitle":"36 Hrs",
+            "textColor":"#ffc107",
+            "cardSubTitle":"Time to close",
+			"cardIcon":"OrangeWait"
+        },
+        {
+            "cardTitle":"Medium",
+            "textColor":"#ffc107",
+            "cardSubTitle":"Risk profile impact",
+			"cardIcon":"OrangeChartLineUp"
+        },
+        {
+            "cardTitle":"18 Hrs",
+            "textColor":"#17a2b8 ",
+            "cardSubTitle":"Expected closure",
+			"cardIcon":"BlueChartLineUp"
+        }
+    ],
+    "incidentDetails":{
+
+        "title":"INCIDENT DETAILS",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id odiosed tempor netus purus nec pharetra amet iaculis. Sit eros, semper adipiscing risus lacus, in non. Id odio sed tempor netus purusSiteros, semper adipiscing risus lacus, in non. Id odio sed View More"
+    },
+    "resolutionStatus":{
+
+        "title":"RESOLUTION STATUS",
+        "resolutionDetails":{
+
+            "title":"Resolution Details",
+             "description":"Nulla et ante vel diam facilisis aliquet. Aliquam ultricies rutrum feugiat. Duis nisl neque, blandit et purus vitae",
+			 "isEditable":"true"
+        },
+        "resolutionOwner":{
+
+            "title":"Resolution Owner",
+            "description":"Alister Macmellen (ACME)",
+			 "isEditable":"true"
+        }
+    },
+    "otherDetails":{
+
+        "title":"OTHER DETAILS",
+         "details":[
+            {
+                "subTitle":"Assets Affected",
+                "value":"480",
+				"valueColor":"#333333"
+            },
+            {
+                "subTitle":"Assets Type",
+                "value":"MOBILE~480*DESKTOP~230*LAPTOP~100",
+				"valueColor":"#333333"
+            },
+            {
+                "subTitle":"Geographies",
+                "value":"2(EU.FGH)",
+				"valueColor":"#03AAC9"
+            },
+            {
+                "subTitle":"Org's",
+                "value":"45",
+				"valueColor":"#03AAC9"
+            },
+            {
+                "subTitle":"Breach's cost",
+                "value":"480",
+				"valueColor":"#333333"
+            }
+         ]
+    },
+    "updates":{
+
+        "title":"UPDATES",
+        "data":[
+            {
+                "updateDateTime":"YYYY-MM-DDTHH:mm:ss",
+                "description":"Email servers need immediate fortification. Most breach attempts are between 03:00 Hrs and 07:30Hrs for the date range selected."
+            },
+            {
+                "updateDateTime":"YYYY-MM-DDTHH:mm:ss",
+                "description":"Email servers need immediate fortification. Most breach attempts are between 03:00 Hrs and 07:30Hrs for the date range selected."
+            },
+            {
+                "updateDateTime":"YYYY-MM-DDTHH:mm:ss",
+                "description":"Email servers need immediate fortification. Most breach attempts are between 03:00 Hrs and 07:30Hrs for the date range selected."
+            }
+        ]
+    }
+}

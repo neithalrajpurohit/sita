@@ -1,0 +1,65 @@
+[
+  {
+    "id": "Asset Type",
+    "dropdownoption": [
+      {
+        "value": "Select",
+        "label": "Asset Type | Select"
+      },
+      {
+        "value": "Email",
+        "label": "Asset Type | Email"
+      },
+      {
+        "value": "value2",
+        "label": "Asset Type | value2"
+      },
+      {
+        "value": "value3",
+        "label": "Asset Type | value3"
+      }
+    ]
+  },
+  {
+    "id": "Geography",
+    "dropdownoption": [
+      {
+        "value": "Select",
+        "label": "Geography | Select"
+      },
+      {
+        "label": "Geography | USA Central",
+        "value": "USA Central"
+      },
+      {
+        "label": " Geography | value2",
+        "value": "value2"
+      },
+      {
+        "label": "Geography | value3",
+        "value": "value3"
+      }
+    ]
+  },
+  {
+    "id": "ORG",
+    "dropdownoption": [
+      {
+        "value": "Select",
+        "label": "ORG | Select"
+      },
+      {
+        "label": "ORG | SUV22",
+        "value": "SUV22"
+      },
+      {
+        "label": "ORG | value2",
+        "value": "value2"
+      },
+      {
+        "label": "ORG | value3",
+        "value": "value3"
+      }
+    ]
+  }
+]

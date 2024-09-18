@@ -1,0 +1,130 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* min-height: 100% !important; */
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}
+
+.form-control::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: transparent;
+}
+.form-control::-webkit-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.insight-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  row-gap: 1rem !important;
+  column-gap: 0.4rem !important;
+}
+
+.dropDown-items:hover {
+  background-color: grey !important;
+}
+
+/* cost of security page styles */
+.cop_curreny_input {
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.cop_input-placeholder {
+  font-size: 0.85rem;
+}
+
+.cop_curreny_input::placeholder {
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.cop_input-placeholder::placeholder {
+  font-size: 0.85rem;
+}
+
+/* width */
+.cop_scrollbar::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.cop_scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--entityonboarding-text-color);
+  border-radius: 0.25rem;
+}
+
+.cop_thead,
+.cop_tbody,
+.cop_tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  /* even columns width , fix width of table too*/
+}
+.cop_table_body {
+  display: block !important;
+  height: 30rem !important;
+  overflow-y: auto !important;
+  padding: 0 !important;
+}
+
+.cop_label_fonts {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.cosc-grid {
+  display: grid;
+  grid-template-columns: 2.4fr 3fr 3fr;
+  gap: 0.5rem;
+}
+
+.cosc-input-label {
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+}
+
+.cosc-form-control-width-200 {
+  width: 200px !important;
+}
+
+.cosc-asset-add-btn {
+  background-color: gray;
+  padding: 1px 6px;
+  border: none;
+}
+
+.cosc-tbody-perusertech {
+  display: block;
+  height: 6rem;
+  overflow-y: auto;
+}
+.cosc-tbody-perusertech-2 {
+  display: block;
+  height: 14.5rem;
+  overflow-y: auto;
+}

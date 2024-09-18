@@ -1,0 +1,23 @@
+[
+    {
+      "id": "Services",
+      "dropdownoption": [
+        {
+          "value": "Select",
+          "label": "Services | Select"
+        },
+        {
+          "value": "Email",
+          "label": "Services | Email"
+        },
+        {
+          "value": "value2",
+          "label": "Services | value2"
+        },
+        {
+          "value": "value3",
+          "label": "Services | value3"
+        }
+      ]
+    }
+]

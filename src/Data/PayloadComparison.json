@@ -1,0 +1,20 @@
+[
+    {
+    "filterLevel":"level 1 filter",
+    "selectedFilter":[
+        "Insight"
+    ]
+},
+{
+    "filterLevel":"level 2 filter",
+    "selectedFilter":[
+        "Use Case"
+    ]
+},
+{
+    "filterLevel":"level 3 filter",
+    "selectedFilter":[
+        "Entity"
+    ]
+}
+]
